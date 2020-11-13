@@ -1,29 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
-  <title>Frontend Mentor | FAQ Accordion Card</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="images">
-      <img src="./images/bg-pattern-desktop.svg" class="shadow"/>
-      <img src="./images/illustration-woman-online-desktop.svg" class="ilustration"/>
-      <img src="./images/illustration-box-desktop.svg" class="box"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/830acd1d75.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/illustration-box-desktop.svg" class="box" />
+      <div class="images">
+        <img src="./images/bg-pattern-desktop.svg" class="shadow" />
+        <img
+          src="./images/illustration-woman-online-desktop.svg"
+          class="ilustration"
+        />
+      </div>
+      <div class="faq">
+        <div class="title">FAQ</div>
+        <div class="questions">
+          <div class="question">
+            <input type="checkbox" id="title1" />
+            <label for="title1">How many team members can I invite?</label>
+            <div class="content">
+              <p>
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+          </div>
+          <div class="question">
+            <input type="checkbox" id="title2" />
+            <label for="title2">What is the maximum file upload size?</label>
+            <div class="content">
+              <p>
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </div>
+          </div>
+
+          <div class="question">
+            <input type="checkbox" id="title3" />
+            <label for="title3">How do I reset my password?</label>
+            <div class="content">
+              <p>
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </div>
+          </div>
+          <div class="question">
+            <input type="checkbox" id="title4" />
+            <label for="title4">Can I cancel my subscription?</label>
+            <div class="content">
+              <p>
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+            </div>
+          </div>
+          <div class="question">
+            <input type="checkbox" id="title5" />
+            <label for="title5">Do you provide additional support?</label>
+            <div class="content">
+              <p>
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="faq"> </div>
-  </div>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/dianaSanchezM">Diana Sánchez</a>.
+    </div>
+  </body>
 </html>
