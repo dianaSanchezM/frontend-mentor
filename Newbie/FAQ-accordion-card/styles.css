@@ -32,10 +32,7 @@ body {
   -moz-box-shadow: -1px 41px 58px -28px rgba(0, 0, 0, 0.65);
   box-shadow: -1px 41px 58px -28px rgba(0, 0, 0, 0.65);
 }
-.attribution {
-  position: absolute;
-  bottom: 0%;
-}
+
 
 .images {
   position: relative;
@@ -185,11 +182,12 @@ label::after {
     position: absolute;
     left: 10%;
     top: 4%;
+    width: 80%;
   }
   .ilustration-mb {
     display: flex;
     position: absolute;
-
+    width: 90%;
     top: -95%;
   }
   .faq {
@@ -203,7 +201,7 @@ label::after {
   .title {
     height: 10%;
     margin-top: 12%;
-    padding-left: 40%;
+    text-align: center;
   }
   .questions {
     margin-left: 5%;
